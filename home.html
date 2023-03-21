@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>super hero hunter</title>
+    <!-- link css -->
+    <link rel="stylesheet" href="style.css">
+    <!-- font awsome cnd -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- js -->
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="main-wrapper">
+        <div class="app">
+            <!-- app-header -->
+            <div class="app-header">
+                <h2 class="app-header-title">super <span>hero.</span></h2>
+                <form action="" class="app-header-search">
+                    <input type="text" class="form-control"placeholder="search your superhero here.." name="search">
+                    <button type="submit" class="search-btn">
+                        <i class="fas fa-search"></i>
+                    </button>
+                    <div class="search-list" id="search-list">
+                        <!-- <div class="search-list-item">
+                            <img src="https://cdn.pixabay.com/photo/2019/02/21/09/33/batman-4010940__340.jpg" alt="">
+                            <p>batman</p>
+                        </div> -->
+                       
+                    </div>
+                </form>
+            </div>
+            <!-- end of app header -->
+
+            <div class="app-body">
+                <div class="app-body-content">
+                    <!-- app body thumbnail -->
+                    <div class="app-body-content-thumbnail">
+                        <img src="https://cdn.pixabay.com/photo/2019/02/21/09/33/batman-4010940__340.jpg" alt="">
+                    </div>
+                    <!-- end of app body thumbnai -->
+
+                    <div class="app-body-content-list">
+                        <div class="name">batman</div>
+
+                        <!-- tabs head -->
+                        <div class="app-body-tabs-head">
+                            <button type="button" class="tab-head-single active-tab" data-id="1">
+                                <span>powerstarts</span>
+                            </button>
+                            <button type="button" class="tab-head-single" data-id="2">
+                                <span>biography</span>
+                            </button>
+                            <button type="button" class="tab-head-single" data-id="3">
+                                <span>appearance</span>
+                            </button>
+                            <button type="button" class="tab-head-single" data-id="4">
+                                <span>connection</span>
+                            </button>
+
+                        </div>
+                         <!-- end of tabs head -->
+
+                         <!-- tabs body -->
+                         <div class="app-body-tabs-body">
+                            <!-- powerstarts tab -->
+                            <ul class="tab-body-single powerstats">
+                                <li>
+                                    <div>
+                                        <i class="fa-solid fa-shield-halved"></i>
+                                        <span>intelligent</span>
+                                    </div>
+                                    <span>100</span>
+                                </li>
+                                <li>
+                                    <div>
+                                        <i class="fa-solid fa-shield-halved"></i>
+                                        <span>strength</span>
+                                    </div>
+                                    <span>26</span>
+                                </li>
+                                <li>
+                                    <div>
+                                        <i class="fa-solid fa-shield-halved"></i>
+                                        <span>speed</span>
+                                    </div>
+                                    <span>27</span>
+                                </li>
+                                <li>
+                                    <div>
+                                        <i class="fa-solid fa-shield-halved"></i>
+                                        <span>durability</span>
+                                    </div>
+                                    <span>50</span>
+                                </li>
+                                <li>
+                                    <div>
+                                        <i class="fa-solid fa-shield-halved"></i>
+                                        <span>power</span>
+                                    </div>
+                                    <span>47</span>
+                                </li>
+                                <li>
+                                    <div>
+                                        <i class="fa-solid fa-shield-halved"></i>
+                                        <span>combat</span>
+                                    </div>
+                                    <span>100</span>
+                                </li>
+                            </ul>
+                            <!-- ends  powerstarts tab -->
+
+                            <!-- biography tab -->
+                            <ul class="tab-body-single biography">
+                                <li>
+                                    <span>full name</span>
+                                    <span>terry mcginnis</span>
+                                </li>
+                                <li>
+                                    <span>alert-egos</span>
+                                    <span>no alter egos found</span>
+                                </li>
+                                <li>
+                                    <span>aliases</span>
+                                    <span>batman it,the tommero knight,batman beyond</span>
+                                </li>
+                                <li>
+                                    <span>place of birth</span>
+                                    <span>gothan city,25th century</span>
+                                </li>
+                                <li>
+                                    <span>first-apperance</span>
+                                    <span>batman beyond #1</span>
+                                </li>
+                                <li>
+                                    <span>publisher</span>
+                                    <span>dc comics</span>
+                                </li>
+                            </ul>
+                            <!-- end of biography tab -->
+
+                            <!-- appernance -->
+                            <ul class="tab-body-single appreance">
+                                <li>
+                                    <span>
+                                        <i class="fas fa-star"></i>
+                                        gender
+                                    </span>
+                                    <span>male</span>
+                                </li>
+                                <li>
+                                    <span>
+                                        <i class="fas fa-star"></i>
+                                        race
+                                    </span>
+                                    <span>human</span>
+                                </li>
+                                <li>
+                                    <span>
+                                        <i class="fas fa-star"></i>
+                                        height
+                                    </span>
+                                    <span>5' 10''</span>
+                                </li>
+                                <li>
+                                    <span>
+                                        <i class="fas fa-star"></i>
+                                        weight
+                                    </span>
+                                    <span>170 lb</span>
+                                </li>
+                             
+                                <li>
+                                    <span>
+                                        <i class="fas fa-star"></i>
+                                        eye-color
+                                    </span>
+                                    <span>blue</span>
+                                </li>
+                                <li>
+                                    <span>
+                                        <i class="fas fa-star"></i>
+                                        hair-color
+                                    </span>
+                                    <span>black</span>
+                                </li>
+                              
+                            </ul>
+                            <!-- end apperance -->
+
+                            <!-- connection -->
+                            <ul class="tab-body-single connections">
+                                <li>
+                                    <span>group-affilation</span>
+                                    <span>batman family,justice league unlimited  </span>
+                                </li>
+                                <li>
+                                    <span>relative</span>
+                                    <span>bruce wayne(biological father),warren mcginnis(father,deceassed),mary mcginnis(mother),matt mcginnis(brother) </span>
+                                </li>
+                            </ul>
+                            <!-- end of connection -->
+                         </div>
+                         <!-- end tabs body -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
